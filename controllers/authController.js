@@ -6,7 +6,6 @@ import bcrypt from "bcryptjs";
 import crypto from "crypto"
 import sendEmail from "../utils/sendEmail"
 import newOTP from 'otp-generators';
-import { v4 as uuidv4 } from "uuid";
 import { handleEmail } from "../utils/helpers";
 
 const regexUserName = /^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$/;
